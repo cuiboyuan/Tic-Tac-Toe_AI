@@ -15,7 +15,7 @@ This file has the same function as Game_GUI.py except that there is no beautiful
 This file is for the training of AIs. User can load two AIs to let them play against each other to improve both AIs' knowledge (add more information to the json files.)
 
 ### Master_Training.py
-This is the other training method. Different from Training.py, user can only load one AI at a time, and the AI (refer as "student") will be trained against a "Master" AI (Master.py). The Master AI will always pick the best move in every game, so it is expected that the Student AI will mimic the move of Master and improve faster.
+This is the other training method. Different from Training.py, user can only load one AI at a time, and the AI (refer as "student") will be trained against a "Master" AI ([Master.py](master.py)). The Master AI will always pick the best move in every game, so it is expected that the Student AI will mimic the move of Master and improve faster.
 
 ### Master.py
 User cannot directly run this file. This file consists of a function that perfectly predict every possible outcome of the Tic-Tac-Toe game. It will pick the best move every time. The function is implemented by recursive logics instead of reinforcement learning. Theoretically, you can never beat this one in a Tic-Tac-Toe game (That's why it is called Master).
@@ -33,4 +33,4 @@ Consist of basic rule of Tic-Tac-Toe, such as who is the winner, what actions ar
 Consist of all the AIs' knowledge, i.e. json files
 
 ### images
-Consists of all images used by Game_GUI.py
+Consists of all images used by [Game_GUI.py](#game_gui.py)
