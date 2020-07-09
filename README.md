@@ -37,6 +37,9 @@ Consist of basic rule of Tic-Tac-Toe, such as who is the winner, what actions ar
 
 ### brains
 Consist of all the AIs' knowledge, i.e. json files
+- M1, DX1000: Trained by Master_Training.py
+- N1, N2: Trained by Training.py
+- MKY1, MKY2: Trained by Monkey_Training.py
 
 ### images
 Consists of all images used by [Game_GUI.py](#game_gui.py)
