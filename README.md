@@ -39,7 +39,10 @@ Where the magic happens. The GameAI will provide the "best" move (in its opinion
 ### GameRule.py
 Consist of basic rule of Tic-Tac-Toe, such as who is the winner, what actions are available, whether the game has ended, etc.
 
-## Other Files
+## Other File/Directories
+
+### ExploreAll.py
+Program that explores every possible Tic-Tac-Toe games. 
 
 ### brains
 Consist of all the AIs' knowledge, i.e. json files
