@@ -11,7 +11,7 @@ X_OFFSET = 80
 Y_OFFSET = 80
 
 # AI that is the opponent
-AI_NAME = "M1.json"
+AI_NAME = "MKY2.json"
 
 root = Tk()
 root.resizable(width=False, height=False)
