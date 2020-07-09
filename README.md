@@ -3,13 +3,15 @@
 An AI for the game Tic-Tac-Toe. Consisting both codes for Training an AI and player playing against AI. AI will learning through games with players and store the knowledge as json file.
 The project uses the reinforcement learning to train the AI, specifically the Q-learning method.
 
-## File Description
+## Front End Files
 
 ### Game_GUI.py
 This file is the where the program runs. User can play Tic-Tac-Toe game against AI with a graphic user interface made by Tkinter library. 
 
 ### Play.py
 This file has the same function as Game_GUI.py except that there is no beautiful GUI. The user will have to play against AI in command prompt.
+
+## AI Training Files
 
 ### Training.py
 This file is for the training of AIs. User can load two AIs to let them play against each other to improve both AIs' knowledge (add more information to the json files.)
@@ -26,6 +28,8 @@ This is a new training method. There are 3 participants in this training. A "mas
 ### Monkey.py
 A program that generates move randomly, i.e. a monkey (no offense to monkeys).
 
+## Back End Files
+
 ### GameControl.py
 User cannot directly run this file. The “Train Station” of this program which handles input from front ends and gives back the result from back end.
 
@@ -34,6 +38,8 @@ Where the magic happens. The GameAI will provide the "best" move (in its opinion
 
 ### GameRule.py
 Consist of basic rule of Tic-Tac-Toe, such as who is the winner, what actions are available, whether the game has ended, etc.
+
+## Other Files
 
 ### brains
 Consist of all the AIs' knowledge, i.e. json files
