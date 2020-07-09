@@ -42,7 +42,7 @@ Consist of basic rule of Tic-Tac-Toe, such as who is the winner, what actions ar
 ## Other File/Directories
 
 ### ExploreAll.py
-Program that explores every possible Tic-Tac-Toe games. 
+Program that explores every possible Tic-Tac-Toe games by BFS.
 
 ### brains
 Consist of all the AIs' knowledge, i.e. json files
